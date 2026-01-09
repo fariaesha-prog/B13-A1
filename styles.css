@@ -138,31 +138,42 @@ nav{
     border-radius: 14px;
 }
 
-.menu-container{
-    padding: 96px 0;
-    text-align: center;
+.note-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 58px 120px 120px 120px;
+    margin: 0 auto;
+    gap: 44px;
+    background-color: #fbfbfb;
 }
-.menu-container h2{
-    font-size: 32px;
-    margin-bottom: 12px;
+.note-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
 }
-.menu-paragraph{
-    color: #475569;
-    margin-bottom: 48px;
+.note-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    height: 300px;
 }
-.menu-grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 2px;
-}
-.menu-card{
-    background-color: #f8fafc;
+.note-cards card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
     padding: 24px;
-    border-radius: 12px;
+    text-align: center;
+    border-radius: 8px;
+    
 }
-.menu-card h3{
-    margin: 16px 0 8px ;
-}
+
 
 .solution-parent{
     padding: 120px;
