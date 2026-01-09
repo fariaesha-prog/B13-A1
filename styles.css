@@ -137,3 +137,85 @@ nav{
     width: 480px;
     border-radius: 14px;
 }
+
+.menu-container{
+    padding: 96px 0;
+    text-align: center;
+}
+.menu-container h2{
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.menu-paragraph{
+    color: #475569;
+    margin-bottom: 48px;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+.menu-card{
+    background-color: #f8fafc;
+    padding: 24px;
+    border-radius: 12px;
+}
+.menu-card h3{
+    margin: 16px 0 8px ;
+}
+
+.solution-parent{
+    padding: 120px;
+}
+.solution-content{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+.solution-bg{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.solution-text{
+    width: 700px;
+    height: 396px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 102px;
+    margin-bottom: 40px;
+}
+.solution-text1{
+    width: 700px;
+    height: 228px;
+}
+.solution-text1 h4{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.solution-text1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.solution-text1 p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.solution-text2{
+    width: 700px;
+    height: 128px;
+}
+.solution-text2 h5{
+    color: #001931;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
